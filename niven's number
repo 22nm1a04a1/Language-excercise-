@@ -1,0 +1,11 @@
+n=int(input("enter the value"))
+s=0
+x=n
+while(n>0):
+    r=n%10
+    s=s+r
+    n=n//10
+if(x%s==0):
+    print("niven's number")
+else:
+    print("not nivnen's number")
