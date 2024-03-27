@@ -1,0 +1,11 @@
+num=int(input("enter the value of n"))
+sum=0
+temp=num
+while(temp!=0):
+    r=temp%10
+    sum+=r*r*r
+    temp=temp//10
+if(sum==num):
+    print("the given number is amstrong")
+else:
+    print("the given number is not amstrong")
