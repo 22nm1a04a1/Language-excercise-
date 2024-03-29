@@ -1,0 +1,12 @@
+def harika(arr):
+    for i in range(1,len(arr)):
+        if(arr[i]<arr[i-1]):
+            return False
+        return True
+mylist=[18,13,4,9,8,5]
+result=harika(mylist)
+if harika==True:
+    print("sorted")
+else:
+    print("unsorted")
+   
