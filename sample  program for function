@@ -1,0 +1,4 @@
+def example1():
+    for i in range(11):
+        print("tanuja",end=' ')
+example1()
