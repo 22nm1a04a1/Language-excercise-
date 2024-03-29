@@ -1,0 +1,6 @@
+text='tanuja'
+key=0
+while(key<len(text)):
+    l=text[key]
+    print(chr(ord(l)+4),end=' ')
+    key+=1
